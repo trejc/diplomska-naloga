@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7cc1524-5330-47b6-86dc-0810da0eedfc" name="Default" comment="">
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/PACKAGE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/adapted_ranks.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_accuracy_robustness.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_average_expected_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_expected_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_failures.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_precision_recall.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/analyze_speed.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/estimate_accuracy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/estimate_expected_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/estimate_failures.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/analysis/normalize_speed.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/experiment/experiment_chunked.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/experiment/experiment_realtime.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/experiment/experiment_supervised.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/experiment/experiment_unsupervised.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/benchmark_native.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/md5hash.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/mex/traxserver.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/read_trajectory.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/region_convert.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/region_mask.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/region_overlap.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/adoption.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_c.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_client.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_cpp.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_matlab.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_opencv.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/api_python.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/development.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/ncc_cmake_notrax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/ncc_cmake_trax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/region.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/states.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/windows_cmake_clean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/images/windows_cmake_variables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/protocol.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/support.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_client.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_compiling.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_introduction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_linux.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_matlab.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorial_windows.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials/client/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials/client/client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials/matlab/ncc_tracker.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials/tracker/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/docs/tutorials/tracker/ncc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/include/trax.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/setup.py.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/trax/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/trax/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/trax/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/trax/region.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/python/trax/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/base64.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/base64.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/message.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/region.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/region.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/strmap.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/strmap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/tests/debugging.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/tests/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/tests/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/trax.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/src/traxpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/cli.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/getopt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/getopt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/include/trax/client.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/process.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/process.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/res/compile.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/res/static.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/tester.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/tester_resources.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/threads.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/threads.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/client/timer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/DESCRIPTION.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/compile_trax.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/helpers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/traxclient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/traxclient.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/traxserver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/matlab/traxserver.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/opencv/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/opencv/camshift.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/opencv/include/trax/opencv.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/opencv/interactive.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/opencv/opencv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/bad/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/bad/badmex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/bad/badtracker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/bad/badtracker.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/library/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/library/region.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/static/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/static/matlab_static.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/static/native_static.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/support/tests/static/python_static.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/trax/trax-config.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/traxclient.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/native/write_trajectory.mexw64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/create_table_cell.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/document_cache.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/document_context.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/document_create.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/highlight_best_rows.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/matrix2html.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_ar.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_blank.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_ordering.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_ranking.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_sequence_preview.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_sequence_strip.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_timeline.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/plot_trackers_legend.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_ar.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_ar_rank.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_difficulty.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_expected_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_failures.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_precision_recall.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/report_speed.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/css/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/js/jquery.export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/resources/js/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/report/templates/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/calculate_overlap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/convert_sequences.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/cut_patch.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/draw_region.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/find_sequence.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/get_frame_value.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/get_image.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/get_region.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/read_trajectory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/region_convert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/region_mask.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/region_offset.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/region_overlap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/select_sequence.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_create.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_cut.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_fragment.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_get_tags.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_grayscale.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_load.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_pixelchange.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_query_tag.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_resize.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_reverse.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_selectors.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_skipping.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_tag_selectors.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_test_redetection.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/sequence_transform_initialization.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/visualize_sequence.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/sequence/write_trajectory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2013.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2014.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2015.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2016.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2017.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vot2018.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_votlt2018.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vottir2015.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/stacks/stack_vottir2016.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/toolkit_path.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/toolkit_version.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/benchmark_hardware.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/benchmark_native.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/calculate_results_fingerprint.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/change_trackers_visual_identity.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/estimate_completion_time.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/matlab/ncc.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/matlab/vot.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/ncc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/static.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/static.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/native/vot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/python/python_ncc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/python/python_static.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/examples/python/vot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/find_tracker.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/generate_matlab_command.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/generate_octave_command.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/generate_python_command.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/integration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/is_deterministic.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/order_trackers.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/properties_create.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/properties_load.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/properties_save.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/properties_set.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/set_trackers_visual_identity.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/templates/tracker.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/templates/tracker_matlab.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/templates/tracker_octave.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/templates/tracker_python.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_create.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_evaluate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_list.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_load.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_run.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/tracker_test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/valid_identifier.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/tracker/write_manifest.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/compile_mex.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/delpath.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/export_figure.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/external.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/file_newer_than.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/format_interval.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/generate_from_template.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/get_field_value.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/gmm_estimate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/gmm_evaluate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/iff.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/initialize_native.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/is_octave.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/isascii.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/iterate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/json_decode.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/json_encode.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/md5hash.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/md5hash.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/mkpath.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/normalise.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/parsefile.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/patch_operation.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/plotc.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/readstruct.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/relativepath.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/sfigure.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/strjoin.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/strsuffix.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/struct_merge.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/strxcmp.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/tight_subplots.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/utilities/writestruct.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/get_global_variable.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/print_debug.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/print_indent.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/print_text.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/set_global_variable.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/configuration.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/run_analysis.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/run_browse.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/run_experiments.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/run_pack.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/templates/run_test.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_analyze.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_browse.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_create.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_evaluate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_load.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_submit.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vot-toolkit/workspace/workspace_test.m" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/diplomska_naloga$Run_testing.coverage" NAME="Run testing Coverage Results" MODIFIED="1542043105619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="testing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NEAREST</find>
+      <find>INTER_</find>
+      <find>INTER_CUBIC</find>
+      <find>INTER_LINEAR</find>
+      <find>resize</find>
+      <find>print</find>
+      <find>sim_map</find>
+      <find>512</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>INTER_CUBIC</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testing/test_20181102_101547/testflags.txt" />
+        <option value="$PROJECT_DIR$/testing/test_20181101_182139/testflags.txt" />
+        <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/tracker.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="400" />
+    <option name="y" value="130" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="diplomska-naloga" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomska-naloga" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Barovir\PycharmProjects\diplomska-naloga\videos" />
+      <recent name="C:\Users\Barovir\PycharmProjects\diplomska-naloga" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Barovir\PycharmProjects\diplomska-naloga" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run testing" type="PythonConfigurationType" factoryName="Python">
+      <module name="diplomska-naloga" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Barovir\PycharmProjects\diplomska-naloga\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="testing" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7cc1524-5330-47b6-86dc-0810da0eedfc" name="Default" comment="" />
+      <created>1530028046634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530028046634</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297561" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3297561" />
+      <window_info anchor="right" x="0" y="0" width="434" height="986" id="Documentation" order="7" side_tool="true" visible="true" weight="0.1705757" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297561" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3297561" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3297561" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297561" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_141951/iou_lists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_141951/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181102_114932/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/absl/flags/_flag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_234634/iou_lists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="9" column="127" lean-forward="true" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_162306/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_204219/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_234634/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_162306/testflags.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_162306/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20180920_173129/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20180924_120820/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20180927_071840/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20180929_193504/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20180930_183708/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181014_112444/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181014_112444/testflags.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181014_134023/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181025_145913/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181025_163242/testflags.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181025_163242/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181101_162904/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181025_163242/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_121038/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_125859/robustness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_144150/iou_lists.txt" />
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_144150/mAp.txt" />
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_121038/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_234634/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181103_234634/testflags.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_125859/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_20181104_181252/mAp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
