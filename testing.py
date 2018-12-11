@@ -113,3 +113,6 @@ def init_cnn():
 
 if __name__ == "__main__":
     tf.app.run()
+
+
+# "C://Users//Barovir//PycharmProjects//diplomska-naloga//venv//Scripts//python.exe"  -c "import sys; sys.path.append('C://Users//Barovir//PycharmProjects//diplomska-naloga//vot-toolkit//native//trax//python');sys.path.append('C://Users//Barovir//PycharmProjects//diplomska-naloga'); import vot_tracker.py"

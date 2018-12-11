@@ -1,0 +1,2 @@
+environ({'ALLUSERSPROFILE': 'C:\\ProgramData', 'APPDATA': 'C:\\Users\\Barovir\\AppData\\Roaming', 'COMPUTERNAME': 'SEMS', 'CUDA_PATH': 'C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0', 'CUDA_PATH_V9_0': 'C:\\Program Files\\NVIDIA GPU Computin
+@@TRAX:hello "trax.region=rectangle" "trax.image=path" "trax.version=1"

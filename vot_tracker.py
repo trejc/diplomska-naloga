@@ -124,10 +124,6 @@ class LT(object):
 
             self.use_gauss = True
 
-        ft_target_h = ft_target[2] - ft_target[0]
-        ft_target_w = ft_target[3] - ft_target[1]
-        self.scale_factor = (FLAGS.template_size / ft_target_h, FLAGS.template_size / ft_target_w)
-
         if confidence < FLAGS.good_detection_thresh and np.shape(max_slice)[:2] == (self.template_size, self.template_size):
             self.template = self.template * (1 - FLAGS.update_alpha) + max_slice * FLAGS.update_alpha
 
@@ -143,6 +139,8 @@ class LT(object):
         self.target = to_yxhw(self.target)
         self.target[2] -= pad_amount
         self.target[3] -= pad_amount
+
+        self.scale_factor = (self.template_size / target_h / self.stride, FLAGS.template_size / target_w / self.stride)
 
         return vot.Rectangle(self.target[1], self.target[0], int(self.target[3]), int(self.target[2])), confidence
 
@@ -299,7 +297,7 @@ class LT(object):
         # labels[len(pos_samples):, 1] = 1
         labels[len(pos_samples):] = 0  # (np.array(neg_iou)[:len(neg_samples)] - 1)
 
-        loss = softmax_loss(self.template)
+        loss = entropy_loss(self.template)
         # optimizer = optimizers.Adam(lr=learning_rate)
         optimizer = optimizers.SGD(lr=learning_rate, momentum=0.9, decay=5e-4)
 
@@ -359,10 +357,3 @@ if not imagefile:
 
 image = cv2.imread(imagefile)
 tracker = LT(image, selection)
-while True:
-    imagefile = handle.frame()
-    if not imagefile:
-        break
-    image = cv2.imread(imagefile)
-    region, confidence = tracker.track(image)
-    handle.report(region, confidence)

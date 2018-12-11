@@ -118,6 +118,7 @@ else
             'family', family_identifier, 'parameters', tracker_parameters);
 
     tracker.environment = tracker_environment;
+    tracker.command = strrep(tracker.command, '\', '//');
 
     if ~isascii(tracker.command)
         warning('Tracker command contains non-ASCII characters. This may cause problems.');

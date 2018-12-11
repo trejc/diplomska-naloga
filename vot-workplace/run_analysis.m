@@ -8,7 +8,7 @@ addpath('C:\Users\Barovir\PycharmProjects\diplomska-naloga\vot-toolkit'); toolki
 
 error('Analysis not configured! Please edit run_analysis.m file.'); % Remove this line after proper configuration
 
-trackers = tracker_list('LT', 'TODO'); % TODO: add more trackers here
+trackers = tracker_list('NCC', 'TODO'); % TODO: add more trackers here
 
-workspace_analyze(trackers, sequences, experiments, 'report_LT', 'Title', 'Report for votlt2018');
+workspace_analyze(trackers, sequences, experiments, 'report_NCC', 'Title', 'Report for votlt2018');
 

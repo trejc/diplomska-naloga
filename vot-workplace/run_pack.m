@@ -4,7 +4,7 @@ addpath('C:\Users\Barovir\PycharmProjects\diplomska-naloga\vot-toolkit'); toolki
 
 [sequences, experiments] = workspace_load();
 
-tracker = tracker_load('LT');
+tracker = tracker_load('NCC');
 
 workspace_submit(tracker, sequences, experiments);
 

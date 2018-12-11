@@ -13,7 +13,7 @@ def fit_image(image, min_size):
     new_width = np.multiply((1.0 + scale), im_shape[1]).astype(int)
     new_height = np.multiply((1.0 + scale), im_shape[0]).astype(int)
 
-    return cv2.resize(image, dsize=(new_width, new_height), interpolation=cv2.INTER_CUBIC)
+    return cv2.resize(image, dsize=(new_width, new_height), interpolation=cv2.INTER_NEAREST)
 
 
 def select_target(frame):
@@ -85,11 +85,11 @@ def generate_anchors(target, ratios=np.array([0.5, 1.0, 2.0])):
     return np.array(anchors)
 
 
-def generate_search_window(ft_shape, target, template_scale):
+def generate_search_window(target, template_scale):
     _target = to_yxhw(target)
     _target[2:4] = np.tile(_target[2:4].max(), 2)
     _target[2:4] = np.multiply(_target[2:4], template_scale)
-    _target = fit_to_frame(ft_shape, to_y1x1y2x2(_target))
+    _target = to_y1x1y2x2(_target)
 
     return np.array(_target)
 
@@ -141,13 +141,8 @@ def get_n_max(ft_map, n):
 
 
 def entropy_loss(template):
-    slice_shape = np.shape(template)
-    gauss = gauss_kernel(slice_shape[:2], 2) + 0.01
-    t_filter = np.transpose(np.tile(gauss, [slice_shape[2], 1, 1]), [1, 2, 0])
-    t_slice = np.multiply(template, t_filter)
-
     def loss(y_true, y_pred):
-        batch_t_slice = K.expand_dims(K.flatten(t_slice), axis=0)
+        batch_t_slice = K.expand_dims(K.flatten(template), axis=0)
         batch_t_slice = K.cast(batch_t_slice, dtype=tf.float32)
         y_pred = K.batch_flatten(y_pred)
         y_true = K.flatten(y_true)

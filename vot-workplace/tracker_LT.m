@@ -1,10 +1,12 @@
 
-error('Tracker not configured! Please edit the tracker_LT.m file.'); % Remove this line after proper configuration
+% error('Tracker not configured! Please edit the tracker_LT.m file.'); % Remove this line after proper configuration
 
 % The human readable label for the tracker, used to identify the tracker in reports
 % If not set, it will be set to the same value as the identifier.
 % It does not have to be unique, but it is best that it is.
-tracker_label = ['LongTerm_testing'];
+tracker_label = ['LT'];
+addpath('C:\Users\Barovir\PycharmProjects\diplomska-naloga\vot-toolkit'); toolkit_path;
+set_global_variable('python', 'C:\Users\Barovir\PycharmProjects\diplomska-naloga\venv\Scripts\python.exe')
 
 % For Python implementations we have created a handy function that generates the appropritate
 % command that will run the python executable and execute the given script that includes your
@@ -14,7 +16,7 @@ tracker_label = ['LongTerm_testing'];
 % script of your tracker (not the .py file but just the name of the script) and also provide the
 % path (or multiple paths) where the tracker sources % are found as the elements of the cell
 % array (second argument).
-tracker_command = generate_python_command('<TODO: set script name>', {'<TODO: set script path>'});
+tracker_command = generate_python_command('vot_tracker.py', {'C:\Users\Barovir\PycharmProjects\diplomska-naloga'});
 
 tracker_interpreter = 'python';
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env python2.7
+
 """
 Implementation of the TraX sever. This module provides implementation
 of the server side of the protocol and is therefore meant to be used in the
@@ -19,7 +21,6 @@ import trax.image
 DEFAULT_HOST = '127.0.0.1'
 
 TRAX_VERSION = 1
-
 
 class Request(collections.namedtuple('Request', ['type', 'image', 'region', 'parameters'])):
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env python2.7
+
 """
 Implementation of the TraX protocol. The current implementation is written in pure Python and is therefore a bit slow.
 """
